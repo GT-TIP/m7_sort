@@ -1,6 +1,8 @@
 /*
-Given a set of time intervals in any order, merge all overlapping intervals into one and output the result which should have only mutually exclusive intervals. Let the intervals be represented as pairs of integers for simplicity. 
-For example, let the given set of intervals be {{1,3}, {2,4}, {5,7}, {6,8} }. The intervals {1,3} and {2,4} overlap with each other, so they should be merged and become {1, 4}. Similarly {5, 7} and {6, 8} should be merged and become {5, 8}
+Q3) Merge sorted arrays with extra space of O(1).
+Given two sorted array. Merge these two arrays such that the initial numbers (after complete sorting) are in the first array and the remaining numbers are in the second array. Extra space allowed in O(1).
+Ex. Input: ar1[] = {1, 5, 9, 10, 15, 20};     ar2[] = {2, 3, 8, 13}; 
+public static void merge(int[] arr1, int[] arr2)
 
 */
 public class Advanced {
